@@ -1,0 +1,55 @@
+body {
+    /* Imports image from assets folder */
+    background-image: url('assets/boxing_ring.png');
+    /* Centers image horizontally and vertically */
+    background-position: center center;
+    /* Ensures background image wont tile */
+    background-repeat: no-repeat;
+    /* Image is fixed in viewport, and doesnt move when container height is greater than image height */
+    background-attachment: fixed;
+    /*  */
+    background-size: cover;
+   
+}
+
+p {
+    font-size: 10vh;
+    font-family: 'Black Ops One', cursive;
+    display: flex;
+    color: #73091D;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#rock {
+    display: none;
+}
+
+#paper{
+    display: none;
+}
+
+#scissors {
+    display: none;
+}
+
+button {
+    margin: 0 auto;
+    display: none;
+    background-color: #63F2F2;
+    font-family: 'Black Ops One', cursive;
+    margin-top: 5vh;
+    width: 40vw;
+    height: 7vh;
+    font-size: 2vh;
+}
+
+button:hover {
+    background-color: #224459;
+    color:white
+}
+
+#selectGame {
+    margin-top: 20vh;
+}
