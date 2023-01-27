@@ -1,14 +1,19 @@
+let mySound = new Audio('assets/thud.mp3')
+
+
 function showRock() {
     document.getElementById('rock').style.display = 'flex'
-    lastChance()
+    mySound.play()
 };
 
 function showPaper() {
     document.getElementById('paper').style.display = 'flex'
+    mySound.play()
 };
 
 function showScissors() {
     document.getElementById('scissors').style.display = 'flex'
+    mySound.play()
 };
 
 function showSelectButton() {
@@ -20,7 +25,7 @@ function showReadMeButton() {
 };
 
 setTimeout(showRock, 1000)
-setTimeout(showPaper, 2000)
-setTimeout(showScissors, 3000)
+setTimeout(showPaper, 2500)
+setTimeout(showScissors, 4000)
 setTimeout(showSelectButton, 4000)
 setTimeout(showReadMeButton, 4000)

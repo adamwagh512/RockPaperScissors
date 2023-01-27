@@ -1,0 +1,21 @@
+body {
+    background-color: #224459;
+    color: wheat
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 75vw;
+    margin: 0 auto;
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+  }
+h1 {
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+}
+.image {
+    width: 75vw;
+    height: 30vh;
+}

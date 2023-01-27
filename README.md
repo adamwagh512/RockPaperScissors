@@ -25,6 +25,8 @@ All music and sound effects - https://www.zapsplat.com/
 
 Technology badges - https://github.com/Ileriayo/markdown-badges
 
+Japanese Background - https://www.pinterest.com/pin/715157615812360797/
+
 # License
 MIT License
 
