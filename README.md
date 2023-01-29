@@ -6,7 +6,7 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-This is a website devoted to playing variations of rock-paper-scissors.
+This is a website devoted to playing three variations of rock-paper-scissors against a computer opponent. This project was inspired by a much simpler rock-paper-scissors game I made during my coding bootcamp. I hope you have fun playing this game!
 
 # How To Use
 
@@ -17,15 +17,24 @@ All non-standard fonts - https://fonts.google.com
 
 favicon - https://icons8.com/
 
-Welcome Page background - https://imgflip.com/memetemplate/265390547/boxing-ring
-
 Adobe Color - https://color.adobe.com/create/image
 
 All music and sound effects - https://www.zapsplat.com/
 
 Technology badges - https://github.com/Ileriayo/markdown-badges
 
+Wizard Fight Rules - https://www.pinterest.com/pin/2744449745788236/
+
+Welcome Page background - https://imgflip.com/memetemplate/265390547/boxing-ring
+
 Japanese Background - https://www.pinterest.com/pin/715157615812360797/
+
+French background - https://www.behance.net/gallery/29170423/bOrdogif
+
+Hogwarts background - https://www.pixilart.com/art/hogwarts-c54917a56a375fc
+
+Mushi-ken images - https://en.wikipedia.org/wiki/Sansukumi-ken#/media/File:Mushi-ken_(%E8%99%AB%E6%8B%B3),_Japanese_rock-paper-scissors_variant,_from_the_Kensarae_sumai_zue_(1809).jpg
+
 
 # License
 MIT License

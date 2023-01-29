@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Attaches CSS style sheet -->
+    <link rel ='stylesheet' href="game.css">
+<!-- Importing Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<!-- Importing google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Gamja+Flower&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <title id="title">Rock, Paper, Scissors</title>
+</head>
+<body>
+    <div class="container" id="gameContainer">
+        <div class="columns is-mobile">
+            <div class="column" id="buttonRow">
+                <button>Main Menu</button>
+                <button>Mushi-Ken</button>
+                <button>Rochambeau</button>
+                <button>Wizard Fight</button>
+                <button>Mute Music</button>
+            </div>
+        </div>
+        <div class="columns is-mobile" id="cardColumns">
+            <div class="column">
+                <div class="gameCard">
+                    <img id="rockPic" class="choicePic" src="assets/rock.jpg" alt="Avatar">
+                    <div class="cardText">
+                    <h4 id="rockName"><b>Rock</b></h4>
+                    <p id="rockBeats">Rock beats Scissors</p>
+                    <p id="beatsRock"> Paper beats rock</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="column">
+                <div class="gameCard">
+                    <img id="paperPic" class="choicePic" src="assets/paper.jpg" alt="Avatar">
+                    <div class="cardText">
+                    <h4 id="paperName"><b>Rock</b></h4>
+                    <p id="paperBeats">Paper beats Rock</p>
+                    <p id="beatsPaper"> Scissors beats Paper</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="column">
+                <div class="gameCard">
+                    <img id="scissorsPic" class="choicePic" src="assets/scissors.jpg" alt="Avatar">
+                    <div class="cardText">
+                    <h4 id="scissorsName"><b>Rock</b></h4>
+                    <p id="scissorsBeats">Scissors beats paper</p>
+                    <p id="beatsScissors"> Rock beats Scissors</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="column" id="scoreboard">
+                <p id="SB_title">Scoreboard</p>
+                <p> Games Won: 0 </p> 
+                <p> Games Lost: 0</p> 
+                <p> Games Tied: 0</p>  
+            </div>
+        </div>
+        
+    </div>
+
+<!-- Attaches Javascript sheet -->
+    <script src="gameLogic.js"></script>
+</body>
+</html>

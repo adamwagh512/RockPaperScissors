@@ -1,0 +1,44 @@
+body {
+    background-image: url('/assets/french_background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#scoreboard {
+    color: black;
+    opacity: 90%;
+    height: 25vh
+}
+
+.choicePic {
+    width: fit-content;
+    opacity: 90%;
+    height: 40vh;
+}
+
+.gameCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+}
+
+.cardText {
+    background-color: black;
+    opacity: 80%;
+    color: white;
+}
+
+button {
+    width: 18vw;
+    height: 7vh;
+    opacity: 70%;
+}
+
+#buttonRow {
+    opacity: 70%;
+}
