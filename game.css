@@ -16,6 +16,7 @@ body {
     width: fit-content;
     opacity: 90%;
     height: 40vh;
+    width: 21vw;
 }
 
 .gameCard {
@@ -34,7 +35,7 @@ body {
 }
 
 button {
-    width: 18vw;
+    width: 15vw;
     height: 7vh;
     opacity: 70%;
 }

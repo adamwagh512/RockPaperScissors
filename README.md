@@ -35,6 +35,9 @@ Hogwarts background - https://www.pixilart.com/art/hogwarts-c54917a56a375fc
 
 Mushi-ken images - https://en.wikipedia.org/wiki/Sansukumi-ken#/media/File:Mushi-ken_(%E8%99%AB%E6%8B%B3),_Japanese_rock-paper-scissors_variant,_from_the_Kensarae_sumai_zue_(1809).jpg
 
+Wizard fight images - https://harrypotter.fandom.com/wiki/Main_Page
+
+Rochambaue images - https://www.vecteezy.com/free-vector/rock-paper-scissors
 
 # License
 MIT License
