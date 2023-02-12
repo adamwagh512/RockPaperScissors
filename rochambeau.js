@@ -11,7 +11,7 @@ function playFrench() {
     frenchMusic.play()
     frenchMusic.loop = true
 }
-
+    document.body.style.backgroundImage = "url('assets/french_background.gif')";
     document.getElementById('gameContainer').style.fontFamily = "Nothing You Could do, cursive";
     document.getElementById('gameContainer').style.fontSize = '2vw'
     document.getElementById('buttonRow').style.backgroundColor = '#7c6c39';
