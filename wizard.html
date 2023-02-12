@@ -12,15 +12,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Gamja+Flower&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
-    <title id="title">Rock, Paper, Scissors</title>
+    <title id="title">Rochambeau</title>
 </head>
 <body>
     <div class="container" id="gameContainer">
         <div class="columns is-mobile">
             <div class="column" id="buttonRow">
-                <button>Main Menu</button>
-                <button id="mushiKen">Mushi-Ken</button>
-                <button id="rochambeau">Rochambeau</button>
+                <a href="./welcome.html"><button>Main Menu</button></a>
+                <a href="./mushiken.html"><button id="mushiKen">Mushi-Ken</button></a>
+                <a href="./rochambeau.html"><button id="rochambeau">Rochambeau</button></a>
                 <button id="wizardFight">Wizard Fight</button>
             </div>
         </div>
@@ -57,15 +57,16 @@
             </div>
             <div class="column" id="scoreboard">
                 <p id="SB_title">Scoreboard</p>
-                <p> Games Won: 0 </p> 
-                <p> Games Lost: 0</p> 
-                <p> Games Tied: 0</p>  
+                <p id="gamesWon"> Games Won: 0 </p> 
+                <p id="gamesLost"> Games Lost: 0</p> 
+                <p id="gamesTied"> Games Tied: 0</p>  
             </div>
         </div>
         
     </div>
 
 <!-- Attaches Javascript sheet -->
-    <script src="gameLogic.js"></script>
+    <!-- <script src="gameLogic.js"></script> -->
+    <script src='wizard.js'></script>
 </body>
 </html>
